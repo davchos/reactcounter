@@ -1,46 +1,71 @@
 /* Other rules */
-.container {
-  /* vertical-align: middle; */
-  /* width: 250px; */
-  /* margin: auto, auto; */
-  /* text-align: center; */
-  width: 250px;
-  margin: 0 auto;
-  padding-top: 30px;
+body {
+  user-select: none;
 }
-.content {
-  width: 250px;
-  height: 250px;
-  /* margin: 0, auto; */
+.header {
+  width: 300px;
+  padding-left: 20px;
+  height: 50px;
+  /* border-bottom: black solid 1px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: blue;
+  font-size: 30px;
+
+  /* border: black solid 1px; */
+}
+
+.container {
+  /* width: 250px; */
+  /* border-top: black solid 1px; */
+  margin: 0 auto;
+  /* padding-top: 100px; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
+}
+.content {
+  border-top: darkgrey solid 1px;
+  /* width: 250px; */
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
   align-items: center;
+  padding-top: 100px;
+  box-sizing: border-box;
 }
 
 .firstline {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  /* align-items: center; */
-  /* margin: ; */
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
-.Reset {
-  margin: 10px;
+.Counter {
+  width: 100px;
+  height: 100px;
+  padding-top: 40px;
+  text-align: center;
+  user-select: none;
+  font-weight: bold;
+  /* border: black; */
   background: blue;
   color: white;
-  vertical-align: center;
-}
-
-.Button {
-  margin: 10px;
-  background-color: white;
-  border-color: white;
-  font-weight: bold;
+  border-radius: 20px;
+  box-sizing: border-box;
 }
 
 .secondline {
-  /* display: inline; */
-  /* justify-content: center; */
+  user-select: none;
+}
+
+.footer {
+  height: 50px;
+  text-align: center;
+  padding-top: 20px;
+  user-select: none;
+  /* color: blue; */
 }
